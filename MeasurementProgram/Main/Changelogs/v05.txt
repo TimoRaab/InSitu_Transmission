@@ -1,0 +1,16 @@
+13/08/18
+
+-changed saved formats to
+	u16 for data array
+	u32 for time
+-changed Queue Element for Preview to Spectrometer_Preview in Consumer Data
+-changed Set_Ref to not average (average is displayed)
+-changed Set_Dark to not average (average is displayed)
+-changed Save of Reference and Dark to u16
+-Buttons of record dark/reference are now glowing till end of measurement
+-Change of spin program no longer changes the frames that are taken by the spectrometer
+
+
+-New button for measurement of spectrum only
+-spectra count for automatic numbering of multiple measurements
+	-standard: reset after spin coating (can be disabled in settings)

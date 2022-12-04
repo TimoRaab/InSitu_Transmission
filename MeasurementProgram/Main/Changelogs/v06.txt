@@ -1,0 +1,3 @@
+15/08/18
+
+changed streaming behavior. get single spectrum, write it, but don't write each array size

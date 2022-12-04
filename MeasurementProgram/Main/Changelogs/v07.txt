@@ -1,0 +1,10 @@
+17/08/18
+
+- Integrated Spin Coater class for easier handling
+- Abort now aborts spin coater and measurement
+- Acceleration now available for spin coater (value of 0 means instant acceleration)
+- Spin Program changed to 1D array with cluster of Speed, Time and Acceleration for easier handling (transfer to Arduino still 2D array)
+- Time in program still in seconds, but is now transfered in milliseconds to allow fast speed ups in acceleration
+- Saves now in the comments-file correct frames
+- frames are removed from GetDeviceInformation of spectrometer
+- saves now also the program, the start to spin coating and time after spin coating in comments

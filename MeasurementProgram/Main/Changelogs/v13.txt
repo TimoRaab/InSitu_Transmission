@@ -1,0 +1,7 @@
+Bugfix that spectra don't include wavelength data
+	So far wavelength data of in-situ could be used, but with cropping no cropping of spectra took place
+	Now spectra has own wavelength data every time, new input script necessary
+
+16.07.21
+	Bugfix that now also when measurements are taken after in-situ wavelenght is included (not cropped)
+	temp field for time calculation "x-y" is now invisible and not active anymore

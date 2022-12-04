@@ -1,0 +1,9 @@
+-added new mode for short spin coating
+	- activation by choosing short tab in Measure tab
+	- "Spin Time" decides time the spin coater spins after the trigger signal (signal drop)
+	- "Time Detect" shows time when the reference spectrum is chosen (seconds to spin is not included! ONLY after motor starts)
+	- "Wavelength Detect" is defining the wavelength at which the signal is evaluated for trigger
+	- "Threshold" defines the percentage to which the signal has to drop compared to reference at "Time Detect"
+	- All time critical values are done with local variables as these are faster compared to property nodes
+
+-bugfix which freezes program when measurement was aborted and afterwards a normal measurement was started

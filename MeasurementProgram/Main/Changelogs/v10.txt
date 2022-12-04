@@ -1,0 +1,4 @@
+- a speed of zero no longer gets deleted
+- A shutter is included
+	- Automatic regulation for reference (always open), darkspec (always close) and measurement. 
+	- Automations only work with specific Arduino program (v0.6 and higher)

@@ -1,0 +1,3 @@
+- added wl low and wl up to crop spectra to save storage space
+- added frames for ref/dark
+  - frames for spectrometer now only applies to preview-buttons and spectrum-buttons

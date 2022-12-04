@@ -1,0 +1,6 @@
+- Changed Frames Field for observation after spin coating to "Frames for Ref/Dark"
+- Bugfix that when changing the file name during spin coating the additional files have different names
+- Added a cell Value to file name which is appended with an underscore to File name
+	- Cell number automatically counts up while saving the last data of in-situ
+- Added option to save and reopen a preset
+	- Preset are saved in xml-form

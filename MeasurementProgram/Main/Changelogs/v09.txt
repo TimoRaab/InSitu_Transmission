@@ -1,0 +1,4 @@
+-Added spectral stability measurement mode
+-fixed bug for initializing the spectrometer frames
+-changed wait command so it can be aborted 
+-changed names in queueAction typedef
